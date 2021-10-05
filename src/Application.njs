@@ -27,7 +27,7 @@ class Application extends Nullstack {
     return (
       <main>
         <Head />
-        <Home route="/" />
+        <Home route="/:step" />
         <Footer />
       </main>
     )

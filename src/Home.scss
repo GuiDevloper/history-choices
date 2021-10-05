@@ -2,7 +2,6 @@
 	font-family: 'Crete Round', serif;
 	text-align: center;
 	margin: 0 auto;
-	margin-bottom: 1rem;
 	max-width: 500px;
 }
 
@@ -10,12 +9,16 @@
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	button {
+
+	a {
 		all: unset;
 		flex: 1 1 auto;
 		background-color: #171717;
 		text-align: center;
 		min-height: 2.5rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
 
@@ -31,6 +34,7 @@ article {
   border-radius: 5px;
   box-shadow: 1px 1px 5px rgb(17, 17, 17, 50%);
   padding: 20px;
+  margin-top: 1rem;
 
   & > * + * {
     margin-top: 1em;
