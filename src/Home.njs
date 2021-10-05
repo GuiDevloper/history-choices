@@ -1,16 +1,7 @@
 import Nullstack from 'nullstack';
 import './Home.scss';
-import Logo from 'nullstack/logo';
 
 class Home extends Nullstack {
-
-  renderLink({ children, href }) {
-    return (
-      <a href={href} target="_blank" rel="noopener noreferrer">
-        {children}
-      </a>
-    )
-  }
 
   render({ project }) {
     return (
@@ -26,11 +17,6 @@ class Home extends Nullstack {
 	          </div>
 	        </article>
 	      </section>
-	      <footer>
-					<Link href="https://nullstack.app/pt-br">
-						Feito com <Logo height={20} light />
-					</Link>
-				</footer>
     	</>
     )
   }

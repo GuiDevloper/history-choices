@@ -1,6 +1,7 @@
 import Nullstack from 'nullstack';
 import './Application.scss';
 import Home from './Home';
+import Footer from './Footer';
 
 class Application extends Nullstack {
 
@@ -27,6 +28,7 @@ class Application extends Nullstack {
       <main>
         <Head />
         <Home route="/" />
+        <Footer />
       </main>
     )
   }
