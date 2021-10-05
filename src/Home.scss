@@ -1,0 +1,45 @@
+.title {
+	font-family: 'Crete Round', serif;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	max-width: 500px;
+}
+
+.buttons {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	button {
+		all: unset;
+		flex: 1 1 auto;
+		background-color: #171717;
+		text-align: center;
+		min-height: 2.5rem;
+	}
+}
+
+section {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5em;
+}
+
+article {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(17, 17, 17, 50%);
+  padding: 20px;
+
+  & > * + * {
+    margin-top: 1em;
+  }
+
+}
+
+@media (max-width: 768px) {
+  section {
+    /*flex-wrap: wrap;*/
+  }
+}
