@@ -1,5 +1,11 @@
 # History Choices
 
+🇧🇷 Sistema de estória com escolhas permitindo que o leitor decida a próxima etapa.
+
+🇺🇸 System of story with choices allowing reader to decide the next step.
+
+Made with:
+
 <img src='https://raw.githubusercontent.com/nullstack/nullstack/master/nullstack.png' height='60' alt='Nullstack' />
 
 ## How to run this Project
